@@ -1,0 +1,163 @@
+body {
+	text-align: center;
+}
+.section-hero {
+	height: 650px;
+	margin-top: 82px;
+	background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+	border-radius: 0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Halyard Text;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 56px;
+	line-height: 105%;
+	color: #1E266D;
+	margin-top: 50px;
+}
+
+h2 {
+	font-family: Halyard Text;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #455880;
+	margin-top: 10px;
+}
+
+.btn-primary {
+	border-radius: 70px;
+	margin-top: 20px;
+	font-family: Halyard Text;
+}
+
+.btn-light {
+	border-radius: 100px;
+	margin-top: 20px;
+	font-family: Halyard Text;
+}
+
+.logo {
+	padding-top: 170px;
+}
+
+h3 {
+  font-family: Halyard Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 60px;
+  color: rgba(69, 88, 128, 0.5);
+  text-align: center;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.text {
+	font-family: Halyard Display;
+	color: #1E266D;
+	font-size: 48px;
+	margin-top: 60px;
+}
+
+.card {
+	width: 350px;
+	height: 420px;
+	border: 1px solid rgba(69, 88, 128, 0.2);
+	border-radius: 4px;
+}
+
+.card-text {
+	color: #455880;
+	font-family: Halyard Text;
+	text-align: left;
+	font-size: 18px;
+}
+
+.card-title {
+	font-family: Halyard Display;
+	font-size: 22px;
+	color: #1E266D;
+}
+
+.card p {
+	font-family: Halyard Text;
+	font-size: 18px;
+	color: #455880
+}
+
+
+/*for mobile*/
+@media (max-width: 480px) {
+	.section-hero {
+		height: 450px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2{
+		font-size: 15px;
+	}
+	h3 {
+		font-size: 12px;
+	}
+	.logo {
+		padding-top: 0;
+	}
+}
+@media (max-width: 800px){
+	.logo {
+		padding-top: 0;
+	}
+}
+
+
+
